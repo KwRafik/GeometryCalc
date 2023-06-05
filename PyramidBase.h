@@ -2,7 +2,7 @@
 #define PYRAMIDBASE_H
 
 #include <QDialog>
-
+#include "built.h"
 
 
 namespace Ui {
@@ -20,9 +20,17 @@ public:
 private slots:
     void on_backButton_clicked();
 
+    void on_SquareButton_clicked();
+
+    void on_RectangleButton_clicked();
+
+    void on_TrapezeButton_clicked();
+
+    void on_ParallelogramButton_clicked();
+
 private:
     Ui::PyramidBase *ui;
-
+    Built *built2;
 
 };
 

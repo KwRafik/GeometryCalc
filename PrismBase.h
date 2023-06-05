@@ -3,6 +3,8 @@
 
 #include <QDialog>
 #include "built.h"
+#include "prismrectangle.h"
+#include "prismtriangle.h"
 
 
 namespace Ui {
@@ -31,6 +33,8 @@ private slots:
 private:
     Ui::PrismBase *ui;
     Built *built;
+    PrismRectangle *prismrectangle;
+    PrismTriangle *prismtriangle;
 
 };
 

@@ -2,9 +2,13 @@
 #include "ui_PyramidBase.h"
 #include "choosetype.h"
 #include "built.h"
+#include "pyramidrectangle.h"
+#include "pyramidtriangle.h"
 
 ChooseType *choosetype2;
 Built *built4;
+PyramidRectangle *pyramidrectangle2;
+PyramidTriangle *pyramidtriangle;
 
 PyramidBase::PyramidBase(QWidget *parent) :
     QDialog(parent),
@@ -26,19 +30,19 @@ void PyramidBase::on_backButton_clicked()
 }
 
 
-void PyramidBase::on_SquareButton_clicked()
+void PyramidBase::on_TriangleButton_clicked()
 {
     hide();
-    built4 = new Built(this);
-    built4 -> show();
+    pyramidtriangle = new PyramidTriangle(this);
+    pyramidtriangle -> show();
 }
 
 
 void PyramidBase::on_RectangleButton_clicked()
 {
     hide();
-    built4 = new Built(this);
-    built4 -> show();
+    pyramidrectangle2 = new PyramidRectangle(this);
+    pyramidrectangle2 -> show();
 }
 
 

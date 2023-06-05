@@ -63,17 +63,23 @@ void PrismTriangle::on_pushButton_clicked()
     QString label_H = ui ->label_H_value->text();
     int H_value = label_H.toInt();
 
-    if(a_value == 0 || b_value == 0 || c_value == 0 || h_value == 0 || H_value == 0)
+    if(a_value + b_value > c_value && b_value + c_value > a_value && c_value + a_value > b_value)
     {
+        if(a_value == 0 || b_value == 0 || c_value == 0 || h_value == 0 || H_value == 0)
+        {
+            ui->labelPole->setText("error");
+            ui->labelOb->setText("error");
+
+        }else{
+            int result_P = (2*h_value*a_value/2) + H_value*a_value + H_value*b_value + H_value*c_value;
+            ui->labelPole->setText(QString::number(result_P));
+
+            int result_Ob = (h_value*a_value/2)*H_value;
+            ui->labelOb->setText(QString::number(result_Ob));
+        }
+    }else{
         ui->labelPole->setText("error");
         ui->labelOb->setText("error");
-
-    }else{
-    int result_P = (2*h_value*a_value/2) + H_value*a_value + H_value*b_value + H_value*c_value;
-    ui->labelPole->setText(QString::number(result_P));
-
-    int result_Ob = (h_value*a_value/2)*H_value;
-    ui->labelOb->setText(QString::number(result_Ob));
     }
 }
 

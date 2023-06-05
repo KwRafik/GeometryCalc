@@ -65,6 +65,18 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <item>
      <layout class="QGridLayout" name="gridLayout">
       <item row="0" column="2">
+       <widget class="QPushButton" name="TriangleButton">
+        <property name="styleSheet">
+         <string notr="true">wight: 45%;
+height: 100px;
+</string>
+        </property>
+        <property name="text">
+         <string>Trójkąt</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
        <widget class="QPushButton" name="RectangleButton">
         <property name="styleSheet">
          <string notr="true">wight: 45%;
@@ -73,18 +85,6 @@ height: 100px;
         </property>
         <property name="text">
          <string>Prostokąt</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="0">
-       <widget class="QPushButton" name="SquareButton">
-        <property name="styleSheet">
-         <string notr="true">wight: 45%;
-height: 100px;
-</string>
-        </property>
-        <property name="text">
-         <string>Kwadrat</string>
         </property>
        </widget>
       </item>

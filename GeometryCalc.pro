@@ -16,7 +16,9 @@ SOURCES += \
     main.cpp \
     mainwindow.cpp \
     prismrectangle.cpp \
-    prismtriangle.cpp
+    prismtriangle.cpp \
+    pyramidrectangle.cpp \
+    pyramidtriangle.cpp
 
 HEADERS += \
     PrismBase.h \
@@ -25,7 +27,9 @@ HEADERS += \
     choosetype.h \
     mainwindow.h \
     prismrectangle.h \
-    prismtriangle.h
+    prismtriangle.h \
+    pyramidrectangle.h \
+    pyramidtriangle.h
 
 FORMS += \
     PrismBase.ui \
@@ -34,7 +38,9 @@ FORMS += \
     choosetype.ui \
     mainwindow.ui \
     prismrectangle.ui \
-    prismtriangle.ui
+    prismtriangle.ui \
+    pyramidrectangle.ui \
+    pyramidtriangle.ui
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin

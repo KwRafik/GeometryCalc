@@ -57,11 +57,11 @@ void PrismRectangle::on_pushButton_clicked()
         ui->labelOb->setText("error");
 
     }else{
-    int result_P = (2*c_value*a_value) + (2*c_value*b_value) + (2*a_value*b_value);
-    ui->labelPole->setText(QString::number(result_P));
+        int result_P = (2*c_value*a_value) + (2*c_value*b_value) + (2*a_value*b_value);
+        ui->labelPole->setText(QString::number(result_P));
 
-    int result_Ob = a_value*b_value*c_value;
-    ui->labelOb->setText(QString::number(result_Ob));
+        int result_Ob = a_value*b_value*c_value;
+        ui->labelOb->setText(QString::number(result_Ob));
     }
 }
 

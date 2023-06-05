@@ -3,5 +3,7 @@
         <file>grafika/WzorTr.jpg</file>
         <file>grafika/built.png</file>
         <file>grafika/prismrectangle.png</file>
+        <file>grafika/pyramidrectangle.png</file>
+        <file>grafika/pyramidtriangle.png</file>
     </qresource>
 </RCC>

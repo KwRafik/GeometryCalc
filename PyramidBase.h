@@ -3,6 +3,8 @@
 
 #include <QDialog>
 #include "built.h"
+#include "pyramidrectangle.h"
+#include "pyramidtriangle.h"
 
 
 namespace Ui {
@@ -20,7 +22,7 @@ public:
 private slots:
     void on_backButton_clicked();
 
-    void on_SquareButton_clicked();
+    void on_TriangleButton_clicked();
 
     void on_RectangleButton_clicked();
 
@@ -31,6 +33,8 @@ private slots:
 private:
     Ui::PyramidBase *ui;
     Built *built2;
+    PyramidRectangle *pyramidrectangle;
+    PyramidTriangle *pyramidtriangle2;
 
 };
 

@@ -7,5 +7,11 @@
         <file>grafika/pyramidtriangle.png</file>
         <file>grafika/backgraund.png</file>
         <file>grafika/back.png</file>
+        <file>grafika/graniastoslow.png</file>
+        <file>grafika/hexagon.png</file>
+        <file>grafika/ostroslop.png</file>
+        <file>grafika/pentagon.png</file>
+        <file>grafika/prostokat.png</file>
+        <file>grafika/trojkat.png</file>
     </qresource>
 </RCC>

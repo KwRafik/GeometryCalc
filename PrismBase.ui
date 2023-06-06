@@ -110,11 +110,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </property>
         <property name="styleSheet">
          <string notr="true">wight: 200px;
+image: url(:/image/grafika/pentagon.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Pentagon</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -134,11 +135,12 @@ height: 100px;
         </property>
         <property name="styleSheet">
          <string notr="true">wight: 45%;
+image: url(:/image/grafika/trojkat.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Trujkąt</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -158,11 +160,12 @@ height: 100px;
         </property>
         <property name="styleSheet">
          <string notr="true">wight: 50%;
+image: url(:/image/grafika/hexagon.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Hexagon</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -182,11 +185,12 @@ height: 100px;
         </property>
         <property name="styleSheet">
          <string notr="true">wight: 45%;
+image: url(:/image/grafika/prostokat.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Prostokąt</string>
+         <string/>
         </property>
        </widget>
       </item>

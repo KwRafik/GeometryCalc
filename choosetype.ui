@@ -108,10 +108,11 @@ li.checked::marker { content: &quot;\2612&quot;; }
        </property>
        <property name="styleSheet">
         <string notr="true">height: 100%;
+image: url(:/image/grafika/graniastoslow.png);
 width: 45%;</string>
        </property>
        <property name="text">
-        <string>Graniastosłup</string>
+        <string/>
        </property>
       </widget>
       <widget class="QPushButton" name="PyramidButton_2">
@@ -129,10 +130,11 @@ width: 45%;</string>
        </property>
        <property name="styleSheet">
         <string notr="true">height: 100%;
+image: url(:/image/grafika/ostroslop.png);
 width: 45%;</string>
        </property>
        <property name="text">
-        <string>Ostrosłup</string>
+        <string/>
        </property>
       </widget>
      </widget>
@@ -161,11 +163,6 @@ width: 45%;</string>
   <zorder>frame</zorder>
   <zorder>verticalLayoutWidget</zorder>
  </widget>
- <tabstops>
-  <tabstop>textBrowser</tabstop>
-  <tabstop>PrismButton</tabstop>
-  <tabstop>PyramidButton</tabstop>
- </tabstops>
  <resources/>
  <connections/>
 </ui>

@@ -71,11 +71,12 @@ li.checked::marker { content: &quot;\2612&quot;; }
        <widget class="QPushButton" name="TriangleButton">
         <property name="styleSheet">
          <string notr="true">wight: 45%;
+image: url(:/image/grafika/trojkat.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Trójkąt</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -83,11 +84,12 @@ height: 100px;
        <widget class="QPushButton" name="RectangleButton">
         <property name="styleSheet">
          <string notr="true">wight: 45%;
+image: url(:/image/grafika/prostokat.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Prostokąt</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -95,11 +97,12 @@ height: 100px;
        <widget class="QPushButton" name="PentagonButton">
         <property name="styleSheet">
          <string notr="true">wight: 200px;
+image: url(:/image/grafika/pentagon.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Pięciokąt</string>
+         <string/>
         </property>
        </widget>
       </item>
@@ -107,11 +110,12 @@ height: 100px;
        <widget class="QPushButton" name="HexagonButton">
         <property name="styleSheet">
          <string notr="true">wight: 50%;
+image: url(:/image/grafika/hexagon.png);
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Sześciokąt</string>
+         <string/>
         </property>
        </widget>
       </item>

@@ -25,18 +25,45 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QWidget" name="verticalLayoutWidget">
    <property name="geometry">
     <rect>
-     <x>180</x>
-     <y>20</y>
+     <x>200</x>
+     <y>30</y>
      <width>371</width>
      <height>211</height>
     </rect>
    </property>
-   <layout class="QVBoxLayout" name="verticalLayout">
+   <property name="minimumSize">
+    <size>
+     <width>371</width>
+     <height>211</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>371</width>
+     <height>211</height>
+    </size>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
     <item>
-     <widget class="QTextBrowser" name="textBrowser">
+     <widget class="QTextBrowser" name="textBrowser_2">
+      <property name="minimumSize">
+       <size>
+        <width>369</width>
+        <height>77</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>369</width>
+        <height>77</height>
+       </size>
+      </property>
       <property name="html">
        <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
 &lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
@@ -50,11 +77,35 @@ li.checked::marker { content: &quot;\2612&quot;; }
      </widget>
     </item>
     <item>
-     <widget class="QSplitter" name="splitter">
+     <widget class="QSplitter" name="splitter_2">
+      <property name="minimumSize">
+       <size>
+        <width>369</width>
+        <height>125</height>
+       </size>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>369</width>
+        <height>125</height>
+       </size>
+      </property>
       <property name="orientation">
        <enum>Qt::Horizontal</enum>
       </property>
-      <widget class="QPushButton" name="PrismButton">
+      <widget class="QPushButton" name="PrismButton_2">
+       <property name="minimumSize">
+        <size>
+         <width>182</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>182</width>
+         <height>125</height>
+        </size>
+       </property>
        <property name="styleSheet">
         <string notr="true">height: 100%;
 width: 45%;</string>
@@ -63,10 +114,16 @@ width: 45%;</string>
         <string>Graniastosłup</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="PyramidButton">
+      <widget class="QPushButton" name="PyramidButton_2">
        <property name="minimumSize">
         <size>
-         <width>93</width>
+         <width>181</width>
+         <height>125</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>181</width>
          <height>125</height>
         </size>
        </property>
@@ -82,7 +139,33 @@ width: 45%;</string>
     </item>
    </layout>
   </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/grafika/backgraund.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>verticalLayoutWidget</zorder>
  </widget>
+ <tabstops>
+  <tabstop>textBrowser</tabstop>
+  <tabstop>PrismButton</tabstop>
+  <tabstop>PyramidButton</tabstop>
+ </tabstops>
  <resources/>
  <connections/>
 </ui>

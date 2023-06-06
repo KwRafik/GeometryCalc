@@ -25,6 +25,9 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
@@ -34,15 +37,18 @@
      <height>29</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/grafika/back.png);</string>
+   </property>
    <property name="text">
-    <string>back</string>
+    <string/>
    </property>
   </widget>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>120</x>
-     <y>60</y>
+     <y>90</y>
      <width>541</width>
      <height>421</height>
     </rect>
@@ -54,6 +60,28 @@
     <string/>
    </property>
   </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/grafika/backgraund.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>pushButton</zorder>
+  <zorder>label</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -18,7 +18,7 @@ public:
     ~MainWindow();
 
 private slots:
-    void on_StartButton_clicked();
+    void on_StartButton_5_clicked();
 
 private:
     Ui::MainWindow *ui;

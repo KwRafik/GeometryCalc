@@ -15,8 +15,12 @@ SOURCES += \
     choosetype.cpp \
     main.cpp \
     mainwindow.cpp \
+    prismhexagon.cpp \
+    prismpentagon.cpp \
     prismrectangle.cpp \
     prismtriangle.cpp \
+    pyramidhexagon.cpp \
+    pyramidpentagon.cpp \
     pyramidrectangle.cpp \
     pyramidtriangle.cpp
 
@@ -26,8 +30,12 @@ HEADERS += \
     built.h \
     choosetype.h \
     mainwindow.h \
+    prismhexagon.h \
+    prismpentagon.h \
     prismrectangle.h \
     prismtriangle.h \
+    pyramidhexagon.h \
+    pyramidpentagon.h \
     pyramidrectangle.h \
     pyramidtriangle.h
 
@@ -37,8 +45,12 @@ FORMS += \
     built.ui \
     choosetype.ui \
     mainwindow.ui \
+    prismhexagon.ui \
+    prismpentagon.ui \
     prismrectangle.ui \
     prismtriangle.ui \
+    pyramidhexagon.ui \
+    pyramidpentagon.ui \
     pyramidrectangle.ui \
     pyramidtriangle.ui
 

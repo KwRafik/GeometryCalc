@@ -5,6 +5,8 @@
 #include "built.h"
 #include "prismrectangle.h"
 #include "prismtriangle.h"
+#include "prismpentagon.h"
+#include "prismhexagon.h"
 
 
 namespace Ui {
@@ -35,6 +37,8 @@ private:
     Built *built;
     PrismRectangle *prismrectangle;
     PrismTriangle *prismtriangle;
+    PrismPentagon *prismpentagon;
+    PrismHexagon *prismhexagon;
 
 };
 

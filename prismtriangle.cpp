@@ -71,10 +71,10 @@ void PrismTriangle::on_pushButton_clicked()
             ui->labelOb->setText("error");
 
         }else{
-            int result_P = (2*h_value*a_value/2) + H_value*a_value + H_value*b_value + H_value*c_value;
+            double result_P = (2*h_value*a_value/2) + H_value*a_value + H_value*b_value + H_value*c_value;
             ui->labelPole->setText(QString::number(result_P));
 
-            int result_Ob = (h_value*a_value/2)*H_value;
+            double result_Ob = (h_value*a_value/2)*H_value;
             ui->labelOb->setText(QString::number(result_Ob));
         }
     }else{

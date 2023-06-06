@@ -2,7 +2,7 @@
 #include "ui_pyramidtriangle.h"
 #include "PyramidBase.h"
 
-PyramidBase *pyramidbase3;
+PyramidBase *pyramidbase2;
 
 PyramidTriangle::PyramidTriangle(QWidget *parent) :
     QDialog(parent),
@@ -53,8 +53,8 @@ void PyramidTriangle::on_Sliderk_valueChanged(int value)
 void PyramidTriangle::on_backbutton_clicked()
 {
     hide();
-    pyramidbase3 = new PyramidBase(this);
-    pyramidbase3 -> show();
+    pyramidbase2 = new PyramidBase(this);
+    pyramidbase2 -> show();
 }
 
 
@@ -80,7 +80,7 @@ void PyramidTriangle::on_pushButton_clicked()
             ui->labelPole->setText("error");
 
         }else{
-            int result_P = (b_value*a_value) + h_value*a_value + h_value*b_value + h_value*c_value;
+            double result_P = (b_value*a_value) + h_value*a_value + h_value*b_value + h_value*c_value;
             ui->labelPole->setText(QString::number(result_P));
         }
 
@@ -89,7 +89,7 @@ void PyramidTriangle::on_pushButton_clicked()
             ui->labelOb->setText("error");
 
         }else{
-            int result_Ob = (k_value*a_value/2)*H_value/3;
+            double result_Ob = (k_value*a_value/2)*H_value/3;
             ui->labelOb->setText(QString::number(result_Ob));
         }
 

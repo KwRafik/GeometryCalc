@@ -5,5 +5,7 @@
         <file>grafika/prismrectangle.png</file>
         <file>grafika/pyramidrectangle.png</file>
         <file>grafika/pyramidtriangle.png</file>
+        <file>grafika/backgraund.png</file>
+        <file>grafika/back.png</file>
     </qresource>
 </RCC>

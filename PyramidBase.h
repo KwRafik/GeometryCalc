@@ -5,6 +5,9 @@
 #include "built.h"
 #include "pyramidrectangle.h"
 #include "pyramidtriangle.h"
+#include "pyramidpentagon.h"
+#include "pyramidhexagon.h"
+
 
 
 namespace Ui {
@@ -26,15 +29,17 @@ private slots:
 
     void on_RectangleButton_clicked();
 
-    void on_TrapezeButton_clicked();
+    void on_PentagonButton_clicked();
 
-    void on_ParallelogramButton_clicked();
+    void on_HexagonButton_clicked();
 
 private:
     Ui::PyramidBase *ui;
     Built *built2;
     PyramidRectangle *pyramidrectangle;
     PyramidTriangle *pyramidtriangle2;
+    PyramidPentagon *pyramidpentagon;
+    PyramidHexagon *pyramidhexagon;
 
 };
 

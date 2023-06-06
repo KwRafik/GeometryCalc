@@ -4,11 +4,15 @@
 #include "built.h"
 #include "prismrectangle.h"
 #include "prismtriangle.h"
+#include "prismpentagon.h"
+#include "prismhexagon.h"
 
 ChooseType *choosetype1;
 Built *built3;
 PrismRectangle *prismrectangle2;
 PrismBase *prismtriangle;
+PrismPentagon *prismpentagon2;
+PrismHexagon *prismhexagon2;
 
 PrismBase::PrismBase(QWidget *parent) :
     QDialog(parent),
@@ -49,15 +53,15 @@ void PrismBase::on_TriangleButton_clicked()
 void PrismBase::on_PentagonButton_clicked()
 {
     hide();
-    built3 = new Built(this);
-    built3 -> show();
+    prismpentagon2 = new PrismPentagon(this);
+    prismpentagon2 -> show();
 }
 
 
 void PrismBase::on_HexagonButton_clicked()
 {
     hide();
-    built3 = new Built(this);
-    built3 -> show();
+    prismhexagon2 = new PrismHexagon(this);
+    prismhexagon2 -> show();
 }
 

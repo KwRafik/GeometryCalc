@@ -61,7 +61,7 @@ void PyramidRectangle::on_pushButton_clicked()
         ui->labelPole->setText("error");
 
     }else{
-        int result_P = (b_value*a_value) + 2*h_value*a_value + 2*h_value*b_value;
+        double result_P = (b_value*a_value) + 2*h_value*a_value + 2*h_value*b_value;
         ui->labelPole->setText(QString::number(result_P));
     }
 
@@ -70,7 +70,7 @@ void PyramidRectangle::on_pushButton_clicked()
         ui->labelOb->setText("error");
 
     }else{
-        int result_Ob = (b_value*a_value)*H_value/3;
+        double result_Ob = (b_value*a_value)*H_value/3;
         ui->labelOb->setText(QString::number(result_Ob));
     }
 }

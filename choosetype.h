@@ -19,9 +19,9 @@ public:
     ~ChooseType();
 
 private slots:
-    void on_PrismButton_clicked();
+    void on_PrismButton_2_clicked();
 
-    void on_PyramidButton_clicked();
+    void on_PyramidButton_2_clicked();
 
 private:
     Ui::ChooseType *ui;

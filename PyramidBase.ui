@@ -34,8 +34,11 @@
      <height>29</height>
     </rect>
    </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/grafika/back.png);</string>
+   </property>
    <property name="text">
-    <string>back</string>
+    <string/>
    </property>
   </widget>
   <widget class="QWidget" name="layoutWidget">
@@ -89,26 +92,26 @@ height: 100px;
        </widget>
       </item>
       <item row="1" column="0">
-       <widget class="QPushButton" name="TrapezeButton">
+       <widget class="QPushButton" name="PentagonButton">
         <property name="styleSheet">
          <string notr="true">wight: 200px;
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Trapez</string>
+         <string>Pięciokąt</string>
         </property>
        </widget>
       </item>
       <item row="1" column="2">
-       <widget class="QPushButton" name="ParallelogramButton">
+       <widget class="QPushButton" name="HexagonButton">
         <property name="styleSheet">
          <string notr="true">wight: 50%;
 height: 100px;
 </string>
         </property>
         <property name="text">
-         <string>Równoległobok</string>
+         <string>Sześciokąt</string>
         </property>
        </widget>
       </item>
@@ -116,6 +119,28 @@ height: 100px;
     </item>
    </layout>
   </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>801</width>
+     <height>601</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">image: url(:/image/grafika/backgraund.png);</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+  </widget>
+  <zorder>frame</zorder>
+  <zorder>backButton</zorder>
+  <zorder>layoutWidget</zorder>
  </widget>
  <resources/>
  <connections/>

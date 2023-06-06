@@ -14,7 +14,7 @@ MainWindow::~MainWindow()
 }
 
 
-void MainWindow::on_StartButton_clicked()
+void MainWindow::on_StartButton_5_clicked()
 {
     hide();
     choosetype = new ChooseType(this);

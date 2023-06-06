@@ -13,5 +13,7 @@
         <file>grafika/pentagon.png</file>
         <file>grafika/prostokat.png</file>
         <file>grafika/trojkat.png</file>
+        <file>grafika/prismprostokat_white.png</file>
+        <file>grafika/prismtrojkat_white.png</file>
     </qresource>
 </RCC>

@@ -25,22 +25,6 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
-  <widget class="QLabel" name="label">
-   <property name="geometry">
-    <rect>
-     <x>410</x>
-     <y>0</y>
-     <width>371</width>
-     <height>431</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">image: url(:/image/grafika/prismrectangle.png);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QPushButton" name="backbutton">
    <property name="geometry">
     <rect>
@@ -284,6 +268,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>-110</y>
+      <width>411</width>
+      <height>581</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/image/grafika/prismprostokat_white.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <widget class="QWidget" name="layoutWidget_2">
    <property name="geometry">
@@ -464,7 +464,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
    </layout>
   </widget>
   <zorder>frame</zorder>
-  <zorder>label</zorder>
   <zorder>backbutton</zorder>
   <zorder>label_7</zorder>
   <zorder>layoutWidget</zorder>

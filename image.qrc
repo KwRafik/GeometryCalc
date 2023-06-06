@@ -15,5 +15,7 @@
         <file>grafika/trojkat.png</file>
         <file>grafika/prismprostokat_white.png</file>
         <file>grafika/prismtrojkat_white.png</file>
+        <file>grafika/prismhexagon_white.png</file>
+        <file>grafika/prismpentagon_white.png</file>
     </qresource>
 </RCC>

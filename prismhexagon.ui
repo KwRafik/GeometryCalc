@@ -404,14 +404,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>380</x>
-      <y>-190</y>
-      <width>441</width>
-      <height>621</height>
+      <x>330</x>
+      <y>-120</y>
+      <width>501</width>
+      <height>721</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/image/grafika/prismhexagon_white.png);</string>
+     <string notr="true">image: url(:/image/grafika/prismhexagon_white_cut.png);</string>
     </property>
     <property name="text">
      <string/>

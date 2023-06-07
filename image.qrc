@@ -13,9 +13,13 @@
         <file>grafika/pentagon.png</file>
         <file>grafika/prostokat.png</file>
         <file>grafika/trojkat.png</file>
-        <file>grafika/prismprostokat_white.png</file>
-        <file>grafika/prismtrojkat_white.png</file>
-        <file>grafika/prismhexagon_white.png</file>
-        <file>grafika/prismpentagon_white.png</file>
+        <file>grafika/prismprostokat_white_cut.png</file>
+        <file>grafika/prismtrojkat_white_cut.png</file>
+        <file>grafika/prismhexagon_white_cut.png</file>
+        <file>grafika/prismpentagon_white_cut.png</file>
+        <file>grafika/piramidhexagon_white_cut.png</file>
+        <file>grafika/piramidpentagon_white_cut.png</file>
+        <file>grafika/piramidprostokat_white_cut.png</file>
+        <file>grafika/piramidtrojkat_white_cut.png</file>
     </qresource>
 </RCC>

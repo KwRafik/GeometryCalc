@@ -272,13 +272,13 @@ li.checked::marker { content: &quot;\2612&quot;; }
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>-110</y>
+      <y>-50</y>
       <width>411</width>
       <height>581</height>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">image: url(:/image/grafika/prismprostokat_white.png);</string>
+     <string notr="true">image: url(:/image/grafika/prismprostokat_white_cut.png);</string>
     </property>
     <property name="text">
      <string/>

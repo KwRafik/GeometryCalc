@@ -75,21 +75,21 @@ void PyramidTriangle::on_pushButton_clicked()
 
     if(a_value + b_value > c_value && b_value + c_value > a_value && c_value + a_value > b_value)
     {
-        if(a_value == 0 || h_value == 0 || b_value == 0 || c_value == 0)
+        if(a_value == 0 || k_value == 0 || b_value == 0 || c_value == 0)
         {
             ui->labelPole->setText("error");
 
         }else{
-            double result_P = (b_value*a_value) + h_value*a_value + h_value*b_value + h_value*c_value;
+            double result_P = (b_value*a_value) + k_value*a_value + k_value*b_value + k_value*c_value;
             ui->labelPole->setText(QString::number(result_P));
         }
 
-        if(a_value == 0 || H_value == 0 || k_value == 0)
+        if(a_value == 0 || H_value == 0 || h_value == 0)
         {
             ui->labelOb->setText("error");
 
         }else{
-            double result_Ob = (k_value*a_value/2)*H_value/3;
+            double result_Ob = (h_value*a_value/2)*H_value/3;
             ui->labelOb->setText(QString::number(result_Ob));
         }
 

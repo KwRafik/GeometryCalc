@@ -421,6 +421,22 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>-10</y>
+      <width>361</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/image/grafika/piramidpentagon_white_cut.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <zorder>frame</zorder>
   <zorder>layoutWidget</zorder>

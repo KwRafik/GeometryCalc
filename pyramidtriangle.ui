@@ -371,22 +371,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </item>
    </layout>
   </widget>
-  <widget class="QLabel" name="label_8">
-   <property name="geometry">
-    <rect>
-     <x>410</x>
-     <y>20</y>
-     <width>341</width>
-     <height>431</height>
-    </rect>
-   </property>
-   <property name="styleSheet">
-    <string notr="true">image: url(:/image/grafika/pyramidtriangle.png);</string>
-   </property>
-   <property name="text">
-    <string/>
-   </property>
-  </widget>
   <widget class="QFrame" name="frame">
    <property name="geometry">
     <rect>
@@ -405,12 +389,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
    <property name="frameShadow">
     <enum>QFrame::Raised</enum>
    </property>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>-10</y>
+      <width>421</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">image: url(:/image/grafika/piramidtrojkat_white_cut.png);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
   </widget>
   <zorder>frame</zorder>
   <zorder>backbutton</zorder>
   <zorder>layoutWidget</zorder>
   <zorder>layoutWidget_2</zorder>
-  <zorder>label_8</zorder>
  </widget>
  <resources/>
  <connections/>

@@ -210,6 +210,27 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout">
+      <item row="0" column="2">
+       <widget class="QLabel" name="label_a_value">
+        <property name="text">
+         <string>Podaj Liczbe</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>a</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_9">
+        <property name="text">
+         <string>b</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="0">
        <widget class="QSlider" name="Slidera">
         <property name="minimum">
@@ -230,19 +251,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </property>
        </widget>
       </item>
-      <item row="2" column="0">
-       <widget class="QSlider" name="SliderH">
-        <property name="minimum">
-         <number>0</number>
-        </property>
-        <property name="maximum">
-         <number>100</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
       <item row="1" column="0">
        <widget class="QSlider" name="Sliderb">
         <property name="maximum">
@@ -260,8 +268,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </property>
        </widget>
       </item>
-      <item row="3" column="0">
-       <widget class="QSlider" name="Sliderh">
+      <item row="2" column="0">
+       <widget class="QSlider" name="SliderH">
         <property name="minimum">
          <number>0</number>
         </property>
@@ -270,41 +278,6 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </property>
         <property name="orientation">
          <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="1">
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>h</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>a</string>
-        </property>
-       </widget>
-      </item>
-      <item row="0" column="2">
-       <widget class="QLabel" name="label_a_value">
-        <property name="text">
-         <string>Podaj Liczbe</string>
-        </property>
-       </widget>
-      </item>
-      <item row="3" column="2">
-       <widget class="QLabel" name="label_h_value">
-        <property name="text">
-         <string>Podaj Liczbe</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="1">
-       <widget class="QLabel" name="label_9">
-        <property name="text">
-         <string>b</string>
         </property>
        </widget>
       </item>

@@ -22,33 +22,11 @@ void PyramidTriangle::on_Slidera_valueChanged(int value)
 }
 
 
-void PyramidTriangle::on_Sliderb_valueChanged(int value)
-{
-    ui->label_b_value->setText(QString::number(value));
-}
-
-
-void PyramidTriangle::on_SliderC_valueChanged(int value)
-{
-    ui->label_c_value->setText(QString::number(value));
-}
-
-
 void PyramidTriangle::on_SliderH_valueChanged(int value)
 {
     ui->label_H_value->setText(QString::number(value));
 }
 
-
-void PyramidTriangle::on_Sliderh_valueChanged(int value)
-{
-    ui->label_h_value->setText(QString::number(value));
-}
-
-void PyramidTriangle::on_Sliderk_valueChanged(int value)
-{
-   ui->label_k_value->setText(QString::number(value));
-}
 
 void PyramidTriangle::on_backbutton_clicked()
 {
@@ -61,43 +39,25 @@ void PyramidTriangle::on_backbutton_clicked()
 void PyramidTriangle::on_pushButton_clicked()
 {
     QString label_a = ui ->label_a_value->text();
-    int a_value = label_a.toInt();
+    double a_value = label_a.toInt();
     QString label_H = ui ->label_H_value->text();
-    int H_value = label_H.toInt();
-    QString label_h = ui ->label_h_value->text();
-    int h_value = label_h.toInt();
-    QString label_b = ui ->label_b_value->text();
-    int b_value = label_b.toInt();
-    QString label_c = ui ->label_c_value->text();
-    int c_value = label_c.toInt();
-    QString label_k = ui ->label_k_value->text();
-    int k_value = label_k.toInt();
+    double H_value = label_H.toInt();
 
-    if(a_value + b_value > c_value && b_value + c_value > a_value && c_value + a_value > b_value)
-    {
-        if(a_value == 0 || k_value == 0 || b_value == 0 || c_value == 0)
+        if(a_value == 0 || H_value == 0)
         {
             ui->labelPole->setText("error");
-
-        }else{
-            double result_P = (b_value*a_value) + k_value*a_value + k_value*b_value + k_value*c_value;
-            ui->labelPole->setText(QString::number(result_P));
-        }
-
-        if(a_value == 0 || H_value == 0 || h_value == 0)
-        {
             ui->labelOb->setText("error");
 
         }else{
-            double result_Ob = (h_value*a_value/2)*H_value/3;
+            double k_value = sqrt(pow(a_value * sqrt(3) / 4, 2.0) + pow(H_value, 2.0));
+
+            double result_P = (pow(a_value, 2.0) * sqrt(3) / 2) + (3 * a_value * k_value / 2);
+            ui->labelPole->setText(QString::number(result_P));
+
+            double result_Ob = pow(a_value, 2.0) * sqrt(3) / 4;
             ui->labelOb->setText(QString::number(result_Ob));
         }
-
-    }else{
-        ui->labelPole->setText("error");
-        ui->labelOb->setText("error");
     }
-}
 
 
 

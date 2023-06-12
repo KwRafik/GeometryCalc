@@ -1,6 +1,9 @@
 #include "prismtriangle.h"
+#include "qmessagebox.h"
 #include "ui_prismtriangle.h"
 #include "PrismBase.h"
+
+#include <QErrorMessage>
 
 PrismBase *prismbase2;
 

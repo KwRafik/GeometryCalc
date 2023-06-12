@@ -247,6 +247,20 @@ li.checked::marker { content: &quot;\2612&quot;; }
     </item>
     <item>
      <layout class="QGridLayout" name="gridLayout_2">
+      <item row="0" column="1">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>A</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>H</string>
+        </property>
+       </widget>
+      </item>
       <item row="0" column="2">
        <widget class="QLabel" name="label_a_value">
         <property name="text">
@@ -254,21 +268,14 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </property>
        </widget>
       </item>
-      <item row="1" column="1">
-       <widget class="QLabel" name="label_3">
+      <item row="1" column="2">
+       <widget class="QLabel" name="label_H_value">
         <property name="text">
-         <string>h</string>
+         <string>Podaj Liczbe</string>
         </property>
        </widget>
       </item>
-      <item row="2" column="1">
-       <widget class="QLabel" name="label_4">
-        <property name="text">
-         <string>H</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="0">
+      <item row="1" column="0">
        <widget class="QSlider" name="SliderH">
         <property name="minimumSize">
          <size>
@@ -293,54 +300,8 @@ li.checked::marker { content: &quot;\2612&quot;; }
         </property>
        </widget>
       </item>
-      <item row="0" column="1">
-       <widget class="QLabel" name="label_2">
-        <property name="text">
-         <string>A</string>
-        </property>
-       </widget>
-      </item>
       <item row="0" column="0">
        <widget class="QSlider" name="SliderA">
-        <property name="minimumSize">
-         <size>
-          <width>250</width>
-          <height>18</height>
-         </size>
-        </property>
-        <property name="maximumSize">
-         <size>
-          <width>250</width>
-          <height>18</height>
-         </size>
-        </property>
-        <property name="minimum">
-         <number>0</number>
-        </property>
-        <property name="maximum">
-         <number>100</number>
-        </property>
-        <property name="orientation">
-         <enum>Qt::Horizontal</enum>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="2">
-       <widget class="QLabel" name="label_h_value">
-        <property name="text">
-         <string>Podaj Liczbe</string>
-        </property>
-       </widget>
-      </item>
-      <item row="2" column="2">
-       <widget class="QLabel" name="label_H_value">
-        <property name="text">
-         <string>Podaj Liczbe</string>
-        </property>
-       </widget>
-      </item>
-      <item row="1" column="0">
-       <widget class="QSlider" name="Sliderh">
         <property name="minimumSize">
          <size>
           <width>250</width>
